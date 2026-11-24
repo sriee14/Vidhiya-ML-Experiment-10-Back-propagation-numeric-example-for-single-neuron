@@ -1,27 +1,12 @@
-##  Back propagation numeric example for single neuron 
-
-
-
+##  Experiment-10.Back propagation numeric example for single neuron 
 
 ## AIM: 
 
-
-
-
 Manually compute forward and backward pass for a single sigmoid neuron and update weights. 
-
-
-
 
 ## ALGORITHM :  
 
-
-
-
 Compute gradient of cross-entropy loss and update weights via gradient descent. 
-
-
-
 
 ## PROGRAM: 
 
@@ -48,9 +33,7 @@ print('a (output):', round(a,4), 'loss:', round(loss,4))
 print('dw:', np.round(dw,4), 'db:', round(db,4)) 
 print('Updated w:', np.round(w_new,4), 'Updated b:', round(b_new,4))
 
-
 ```
-
 
 ## SAMPLE OUTPUT : 
 
@@ -61,20 +44,11 @@ Updated w: [ 0.1214 -0.2514] Updated b: 0.0428
 
 ```
 
-
-
 ## THEORY: 
-
-
-
 
 Back propagation is chain rule application in neural nets; cross-entropy + sigmoid simplifies
 gradients.
 
 ## RESULT: 
-
-
-
-
 
 Learners observe numeric gradients and weight updates; demystifies backpropagation. 
