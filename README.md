@@ -8,6 +8,11 @@ Manually compute forward and backward pass for a single sigmoid neuron and updat
 
 Compute gradient of cross-entropy loss and update weights via gradient descent. 
 
+## THEORY: 
+
+Back propagation is chain rule application in neural nets; cross-entropy + sigmoid simplifies
+gradients.
+
 ## PROGRAM: 
 
 ```
@@ -43,11 +48,6 @@ dw: [-0.214   0.5136] db: -0.428
 Updated w: [ 0.1214 -0.2514] Updated b: 0.0428
 
 ```
-
-## THEORY: 
-
-Back propagation is chain rule application in neural nets; cross-entropy + sigmoid simplifies
-gradients.
 
 ## RESULT: 
 
